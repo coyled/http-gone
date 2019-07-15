@@ -6,4 +6,4 @@ WORKDIR /var/tmp/builder
 COPY . .
 RUN gem install bundler
 RUN bundle install
-CMD bundle exec puma
+CMD bundle exec puma -C .config/puma.rb
