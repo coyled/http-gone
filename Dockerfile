@@ -1,4 +1,4 @@
-FROM ruby:2.5.5-alpine
+FROM ruby:2.6.3-alpine
 RUN apk update
 RUN apk upgrade
 RUN apk add --no-cache g++ musl-dev make libstdc++
