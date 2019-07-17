@@ -15,5 +15,7 @@ Optional environment variables
 ------------------------------
 
 `$PORT` == TCP port to bind to
+
 `$WEB_CONCURRENCY` == number of workers
+
 `$MAX_THREADS` == max threads per worker
