@@ -2,7 +2,7 @@ map '/' do
     run lambda { |env| [
         410,
         { 'Content-Type' => 'text/plain' },
-        ['410 -- Gone']
+        ['HTTP/1.1 410 Gone']
     ] }
 end
 
